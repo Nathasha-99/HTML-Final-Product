@@ -1,0 +1,646 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#outinner{
+	width: 100vw;
+	background: linear-gradient(to right,rgb(60,50,50),rgb(65,55,54) ,rgb(26, 21, 19) );
+
+	box-sizing: border-box;
+	
+}
+#inner{
+	width: 100vw;
+	height: 75vh;
+
+
+	font-size: 3.5em;
+	background: url(../Assest/expname.jpg);
+	background-attachment: fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: relative;
+}
+
+#heading1 img{
+opacity: 0.03;
+width: 100%;
+height: 100%;
+
+margin-top: 300px;
+
+
+}
+#ininner{
+	border: 10px solid #f6c680;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 480px;
+	height: 20vh;
+}
+
+#name{
+	background: rgba(255, 255, 255, 0.7);
+	display: inline-block;
+	padding: 10px;
+	border: 5px solid rgba(255, 255, 255, 0.7);
+	color: rgb(101, 67, 33);
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#items{
+	width: 100vw;
+	height: 350vh;
+
+	background: linear-gradient(#fdd264,#ffc680,#f56b39);
+	position: relative;
+
+	box-sizing: border-box;
+
+	border: 10px double brown;
+}
+
+#item01,#item02,#item03,#item04,#item05,#item06,#item07,#item08,#item09,#item10{
+	position: absolute;
+	height: 30vh;
+	width: 30vw;
+
+	text-align: center;
+	list-style-type: none;
+	
+	border-radius: 5px;
+	
+}
+
+#item01{
+	position: absolute;
+	top: 170px;
+	left: 4%;
+
+	width: 43vw;
+	
+}
+#item02{
+	position: absolute;
+	top: 580px;
+	left: 4%;
+
+	width: 43vw;
+
+	
+}
+#item03{
+	position: absolute;
+	top: 1000px;
+	left: 4%;
+
+	width: 43vw;
+
+}
+#item04{
+	position: absolute;
+	top: 1400px;
+	left: 4%;
+
+	width: 43vw;
+
+}
+#item05{
+	position: absolute;
+	top: 170px;
+	left: 52%;
+
+	width: 43vw;
+	
+}
+#item06{
+	position: absolute;
+	top: 580px;
+	left: 52%;
+
+	width: 43vw;
+
+}
+#item07{
+	position: absolute;
+	top: 1000px;
+	left: 52%;
+
+	width: 43vw;
+	height: 50vh;
+}
+#item08{
+	position: absolute;
+	top: 1400px;
+	left: 52%;
+
+	width: 43vw;
+
+	height: 50vh;
+}
+#item09{
+	position: absolute;
+	top: 1800px;
+	left: 4%;
+
+	width: 43vw;
+
+	height: 50vh;
+}
+#item10{
+	position: absolute;
+	top: 1800px;
+	left: 52%;
+
+	width: 43vw;
+
+	height: 50vh;
+}
+
+input{
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.2);
+}
+img{
+	height: 280px;
+	width: 320px;
+	border-radius: 5px;
+	float: left;
+}
+.itbtn{
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 30px;
+
+	height: 40px;
+
+	background: wheat;
+}
+.itbtn:hover{
+	background: rgba(255, 255, 255, 0.5);
+}
+tr{
+	box-sizing: border-box;
+	padding: 5px;
+	margin: 5px;
+}
+.itemscls{
+	box-sizing: border-box;
+	padding: 2em;
+	margin-left: 4px;
+	margin-right: 1px;
+	
+	height: 280px;
+	width: 300px;
+	float: left;
+	border-radius: 5px;
+
+	background: rgba(255,255,255,0.7);
+}
+
+
+
+
+
+
+#home{
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	left: 10%;
+	padding: 10px;
+
+	border: none;
+	text-decoration: none;
+}
+#explore{
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	left: 30%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+#contact{
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	left: 60%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+#login{
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	left: 75%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+#signup{
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	left: 85%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+
+#home,#explore,#contact,#login,#signup{
+	background: rgba(255, 255, 255, 0.0);
+	
+	border: none;
+}
+
+#login:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+#home:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+#explore:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+#contact:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+#signup:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+a{
+	font-family: cursive;
+	color: #670305;
+	border-radius: 30px;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#navbar{
+
+	height: 7vh;
+
+	padding-top: 10px;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	width: 100vw;
+
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(8px);
+}
+#logo img{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%);
+
+	opacity: 0.5;
+	height: 50px;
+	width: 50px;
+}
+#cart{
+	position: absolute;
+	bottom: 5%;
+	left: 40%;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 50px;
+	height: 40vh;
+	width: 20vw;
+
+	font-size: 1em;
+}
+
+#cart p{
+	font-size: 1em;
+}
+#items_btn{
+	width: 120px;
+	height: 30px;
+	
+	position: absolute;
+	bottom: 10%;
+	left: 25%;
+}
+#items_btn button{
+	background: #ffd264;
+	border-radius: 5px;
+
+
+	width: 200px;
+	height: 30px;
+	font-family: cursive;
+	color: #670305;
+}
+#items_btn button:hover{
+	background:rgba(255, 255, 255, 0.5);
+}
+
+
+#footer{
+
+	position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+ 
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 15px;
+
+    height: 70px;
+    width: 98.5%;
+    bottom: 0%;
+
+    text-align: center;
+}
+
+
+#payment{
+	width: 220px;
+	height: 35px;
+
+	position: absolute;
+	bottom: 7%;
+	left: 26%;
+}
+
+#payment button{
+	background: #ffd264;
+	border-radius: 5px;
+	width: 180px;
+	height: 30px;
+}
+
+#payment a:link{
+	text-decoration: none ;
+	font-family: cursive;
+	color: #670305;
+}
+/*@media screen and (max-width: 400px){
+	#items{
+	width: 100vw;
+	height: 650vh;
+
+}
+#item01,#item02,#item03,#item04,#item05,#item06,#item07,#item08,#item09,#item10{
+	position: absolute;
+	height: 20vh;
+	width: 50vw;
+	border: solid;
+}
+.itemscls{
+	
+	height: 300px;
+	width: 200px;
+	
+}
+img{
+	height: 150px;
+	width: 150px;
+}
+}*/
+
+
+@media screen and (max-width: 1500px){
+#items{
+	width: 100vw;
+	height: 650vh;
+
+}
+
+#item01,#item02,#item03,#item04,#item05,#item06,#item07,#item08,#item09,#item10{
+	position: absolute;
+	height: 20vh;
+	width: 70vw;
+	
+}
+img{
+	height: 30vh;
+	width: 20vw;
+}
+.itemscls{
+	
+	height: 40vh;
+	width: 30vw;
+}
+
+#item01{
+	position: absolute;
+	top: 170px;
+	left: 20%;
+	
+	}
+#item02{
+	position: absolute;
+	top: 580px;
+	left: 20%;
+
+	}
+#item03{
+	position: absolute;
+	top: 1000px;
+	left: 20%;
+
+	}
+#item04{
+	position: absolute;
+	top: 1400px;
+	left: 20%;
+
+	}
+#item05{
+	position: absolute;
+	top: 1800px;
+	left: 20%;
+
+	}
+#item06{
+	position: absolute;
+	top: 2200px;
+	left: 20%;
+
+	}
+#item07{
+	position: absolute;
+	top: 2600px;
+	left: 20%;
+
+	height: 50vh;
+	}
+#item08{
+	position: absolute;
+	top: 3000px;
+	left: 20%;
+
+	height: 50vh;
+	}
+#item09{
+	position: absolute;
+	top: 3400px;
+	left: 20%;
+
+	height: 50vh;
+	}
+#item10{
+	position: absolute;
+	top: 3800px;
+	left: 20%;
+
+	height: 50vh;
+	}
+#cart{
+	
+	bottom:7%;
+	height: 35vh;
+	width: 30vw;
+}
+#payment{
+	box-sizing: border-box;
+	width: 10vw;
+	height: 5vh;
+	padding: 0;
+	margin: 0;
+	left: 18%;
+}
+#payment a{
+	font-size: 0.6em;
+}
+#items_btn{
+
+	bottom: 55vh;
+	left: 12vw;
+}
+}
+
+
+@media screen and (max-width: 1000px){
+	#item01,#item02,#item03,#item04,#item05,#item06,#item07,#item08,#item09,#item10{
+	position: absolute;
+	height: 20vh;
+	width: 70vw;
+	
+}
+img{
+	height: 280px;
+	width: 280px;
+}
+#item01{
+	position: absolute;
+	top: 170px;
+	left: 20%;
+	
+	}
+#item02{
+	position: absolute;
+	top: 580px;
+	left: 20%;
+
+	}
+#item03{
+	position: absolute;
+	top: 1000px;
+	left: 20%;
+
+	}
+#item04{
+	position: absolute;
+	top: 1400px;
+	left: 20%;
+
+	}
+#item05{
+	position: absolute;
+	top: 1800px;
+	left: 20%;
+
+	}
+#item06{
+	position: absolute;
+	top: 2200px;
+	left: 20%;
+
+	}
+#item07{
+	position: absolute;
+	top: 2600px;
+	left: 20%;
+
+	height: 50vh;
+	}
+#item08{
+	position: absolute;
+	top: 3000px;
+	left: 20%;
+
+	height: 50vh;
+	}
+#item09{
+	position: absolute;
+	top: 3400px;
+	left: 20%;
+
+	height: 50vh;
+	}
+#item10{
+	position: absolute;
+	top: 3800px;
+	left: 20%;
+
+	height: 50vh;
+	}
+#cart{
+	
+	bottom: 3%;
+	
+	height: 250px;
+	width: 200px;
+}
+#payment{
+	box-sizing: border-box;
+	width: 15vw;
+	height: 5vh;
+	padding: 0;
+	margin: 0;
+}
+#payment a{
+	font-size: 0.6em;
+}
+
+}
+

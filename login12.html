@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-
+scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="./css/login12.css">
+<Script>
+    function myFunction(){
+        var un = document.forms["myForm"]["uname"].value;
+        var pw = document.forms["myForm"]["pass"].value;
+        if(un=="student" && pw=="1234"){
+            window.location.href="home.html";
+        }
+        else{
+            alert("Invalid User name and Password");
+        }
+    }
+</script>
+</head>
+<body>
+<div id="container">
+    
+    <div id="navbar">
+    <div id="logo"><img src="./Assest/logo.jpg"></div>
+    <button type="button" id="home"><a href="home.html" style="text-decoration: none;">Home</a></button>
+    <button type="button" id="explore"><a href="Explore sheet.html" style="text-decoration: none;">Explore</a></button>
+    <button type="button" id="contact"><a href="home.html#contactfooter" style="text-decoration: none;">Contact Us</a></button>
+    <button type="button" id="login"><a href="login12.html" style="text-decoration: none;">Login</a></button>
+<button type="button" id="signup"><a href="newsignup.html" style="text-decoration: none;">Signup</a></button>
+</div>
+    
+<div id="loginbox">
+<img src="./Assest/icon.jpg" class="icon">
+<h2 class="centerText">Log In</h2>
+<form name="myForm" method="post">
+<p>User Name</p><input type="text" name="uname" placeholder="Enter Username" required maxlength="20">
+<p>Password</p><input type="password" name="pass" placeholder="Enter Password" required>
+<p><input type="checkbox" name="remember"
+value="checked">&nbsp&nbspRemember me</p>
+<input type="button" name="log" value="Log In" onclick="myFunction()">
+<P class="centerText"><a href= "error.html">Forgot Password?</a></P>
+</form>
+</div>
+
+<div id="footer" class="centerText"><p>&copypage created by:wesbandumagroup<br>E-mail:office.address@wesbanduma.com<br>Tele no: 0112729729</p>
+    
+</div>
+
+</body>
+</html>

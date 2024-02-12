@@ -1,0 +1,113 @@
+<!DOCTYPE>
+<html>
+<head>
+	
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="./css/signup.css">
+	<link href="new4.html">
+</head>
+<body>
+	
+<div class = "container">
+<!--<div id="navbar">
+	<div id="logo"><img src="logo.jpg"></div>
+	<button type="button" id="home"><a href="testing.html" style="text-decoration: none;">Home</a></button>
+	<button type="button" id="explore"><a href="Explore sheet.html" style="text-decoration: none;">Explore</a></button>
+	<button type="button" id="contact"><a href="testing.html" style="text-decoration: none;">Contact Us</a></button>
+	<button type="button" id="login"><a href="login12.html" style="text-decoration: none;">Login</a></button>
+<button type="button" id="signup"><a href="newsignup.html" style="text-decoration: none;">Signup</a></button>
+</div>-->
+
+<div id="navbar">
+	<div id="logo"><img src="./Assest/logo.jpg"></div>
+	<a href="home.html" style="text-decoration: none;" id="home">Home</a>
+	<a href="Explore sheet.html" style="text-decoration: none;" id="explore">Explore</a>
+	<a href="home.html#contactfooter" id="contact" style="text-decoration: none;">Contact Us</a>
+	<a href="login12.html" id="login" style="text-decoration: none;">Login</a>
+	<a href="newsignup.html" id="signup" style="text-decoration: none;">Signup</a>
+</div>
+		<div class="sign-up-form">
+			<img src="./Assest/user-icon.png">
+			<h1> CREATE ACCOUNT</h1>
+			<form action="#">
+				<input type="text" class="input-box" name="username" placeholder="User Name" required> <br/>
+				<input type="text" class="input-box" name="fname" placeholder="Full Name" required> <br/>
+				<input type="email" class="input-box" name="emailadd" placeholder="Enter email" required> <br/>
+				<input type="number" class="input-box" name="contactno" placeholder="Enter Contact Number" mlength="10"> <br/>
+				<input type="text" class="input-box" name="address" placeholder="Enter Address"> <br/>
+
+				<input type="password" class="input-box" id="pswrd_1" placeholder="Password" mlength="10" onkeyup="active()" required> <br/>
+				<input type="password" class="input-box" id="pswrd_2" placeholder="Confirm Password" mlength="10" onkeyup="active_2()" required> <br/>
+					<div class="show">SHOW</div>
+					<div class="error-text" color="red"></div>
+				<p><span><input type="checkbox" required></span> I agree to your Terms Of Service & Privacy Policy.</p>
+				<button type="submit" class="sign-btn" value="Sign Up"  formaction="home.html">Sign Up </button>
+		
+			</form>	
+
+			<script>
+				const pswrd_1 = document.querySelector("#pswrd_1");
+				const pswrd_2 = document.querySelector("#pswrd_2");
+				const errorText = document.querySelector(".error-text");
+				const showBtn = document.querySelector(".show");
+				const btn = document.querySelector("button");
+				function active(){
+				if(pswrd_1.value.length >= 8){
+					btn.removeAttribute("disabled", "");
+					btn.classList.add("active");
+					pswrd_2.removeAttribute("disabled", "");
+				}else{
+					btn.setAttribute("disabled", "");
+					btn.classList.remove("active");
+					pswrd_2.setAttribute("disabled", "");
+				}
+				}
+				btn.onclick = function(){
+				if(pswrd_1.value != pswrd_2.value){
+					errorText.style.display = "block";
+					errorText.classList.remove("matched");
+					errorText.textContent = "Error! Passwords do not match.";
+					errorText.style.color = "red";
+				
+					return false;
+				}else{
+					// errorText.style.display = "block";
+					errorText.classList.add("matched");
+					//errorText.textContent = "";
+					// return false;
+
+				}
+				}
+				function active_2(){
+				if(pswrd_2.value != ""){
+					showBtn.style.display = "block";
+					showBtn.onclick = function(){
+					if((pswrd_1.type == "password") && (pswrd_2.type == "password")){
+						pswrd_1.type = "text";
+						pswrd_2.type = "text";
+						this.textContent = "Hide";
+						this.classList.add("active");
+					}else{
+						pswrd_1.type = "password";
+						pswrd_2.type = "password";
+						this.textContent = "Show";
+						this.classList.remove("active");
+					}
+					}
+				}else{
+					showBtn.style.display = "none";
+				}
+				}
+
+				
+			</script>
+
+		
+	</div>
+		<div id="footer" class="centerText">
+			<div id="footer" class="centerText"><p>&copypage created by:wesbandumagroup<br>E-mail:office.address@wesbanduma.com<br>Tele no: 0112729729</p>
+		</div>
+
+	
+</body>
+</html>

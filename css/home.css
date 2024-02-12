@@ -1,0 +1,347 @@
+#home{
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	left: 10%;
+	padding: 10px;
+
+	border: none;
+	text-decoration: none;
+}
+#explore{
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	left: 30%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+#contact{
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	left: 60%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+#login{
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	left: 75%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+#signup{
+	position: absolute;
+	box-sizing: border-box;
+	top: 20%;
+	left: 85%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+
+#home,#explore,#contact,#login,#signup{
+	background: rgba(255, 255, 255, 0.0);
+	
+	border: none;
+}
+
+#login:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+#home:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+#explore:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+#contact:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+#signup:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+a{
+	font-family: cursive;
+	color: #670305;
+	border-radius: 30px;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#navbar{
+
+	height: 7vh;
+
+	padding-top: 10px;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	width: 100vw;
+
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(8px);
+}
+#logo img{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%);
+
+	opacity: 0.5;
+	height: 50px;
+	width: 50px;
+}
+
+
+#outinner{
+	width: 100vw;
+	background: white;
+	box-sizing: border-box;
+
+}
+#inner{
+	width: 100vw;
+	height: 75vh;
+
+
+	font-size: 3.5em;
+	background: url(../Assest/main.jpg);
+	background-attachment: fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: relative;
+}
+
+#heading1 img{
+	opacity: 0.03;
+	width: 100%;
+	height: 100%;
+
+	margin-top: 300px;
+}
+
+
+#ininner{
+	border: 10px solid #f6c680;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 480px;
+	height: 20vh;
+}
+
+#name{
+	background: rgba(255, 255, 255, 0.7);
+	display: inline-block;
+	padding: 10px;
+	border: 5px solid rgba(255, 255, 255, 0.7);
+	color: rgb(101, 67, 33);
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+.discription{
+	height : 350px;
+	width : 1345;
+
+}
+
+.discription1{
+	width : 500px;
+	height : 300px;
+	margin-left : 35%;
+	margin-right : 425px;
+	margin-top : 80px;
+	border : solid;
+	background-color :#FDD264;
+
+}
+
+.discrip_ele{
+	padding-top : 20px;
+	text-align : center;
+	font-size : 25px;
+}
+
+.history{
+	 background-color: #670305;
+    background-image: linear-gradient(#670305, #F56B39);
+	 height : 100px;
+}
+
+.history_ele{
+	text-align : center;
+	font-size : 50px;
+	padding-top : 20px;
+	color : white;
+}
+
+.historyInformation{
+	background-color :white;
+}
+
+.history_infro{
+	height : 520px;
+}
+
+.mask2{
+	width : 500px;
+	height : auto;
+	margin-left : 425px;
+	margin-right : 425px;
+	margin-top: 50px;
+}
+
+.type{
+	margin-left : 300px;
+}
+
+
+
+.raksha{
+	width : 630px;
+	height : 500px;
+	float : left;
+}
+
+.mask_type_image{
+	margin-left : 200px;
+	margin-top : 20px;
+}
+
+.type_info{
+	text-align:justify;
+}
+
+.garuda{
+	width : 650px;
+	height : 500px;
+	float : right;
+}
+
+
+
+
+.kolam{
+	float : right;
+	width : 1340px;
+	height : 630px;
+}
+
+
+#kolamamask{
+	margin-left : 550px;
+}
+
+.kolam_image{
+	width : 400px;
+	height : 420px;
+	margin-left : 450px;
+}
+
+.snni{
+	width : 630px;
+	height : 500px;
+	float : right;
+	background-color : red;
+}
+
+.sanni{
+	width : 630px;
+	height : 500px;
+	float : left;
+}
+
+.sanni_image{
+		margin-left : 20px;
+}
+
+#mahakolamask{
+	margin-left : 530px;
+}
+
+
+.view_collection1{
+	width : 500px;
+	height : 300px;
+	margin-left : 425px;
+	margin-right : 425px;
+	margin-top : 80px;
+	border : solid;
+	background-color: #670305;
+    background-image: linear-gradient(#670305, #F56B39);
+
+
+}
+
+.contacutus{
+	height : 300px;
+	width : 100vw;
+	background-color: #670305;
+   background-image: linear-gradient(#670305, #F56B39);
+
+}
+
+
+.contactus1{
+	width : 450px;
+	height : 320px;
+	float : left ;
+}
+
+.office_work{
+	padding-top : 60px;
+	font-size : 20px;
+	color : white;
+	text-align : center;
+}
+
+.contactus2{
+	width : 1050;
+	height : 320px;
+
+}
+
+.logo{
+	width : 450px;
+	height : 320px;
+	float : left;
+}
+
+.work{
+	width : 440px;
+	height : 320px;
+	float : right;
+}

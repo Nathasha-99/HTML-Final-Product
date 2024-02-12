@@ -1,0 +1,95 @@
+
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+</head>
+
+
+<body>
+
+<div class="container mt-3">
+ <div class="row mt-5">
+ <div class="col-12  col-md-8 col-lg-6 col-xl-5 mx-auto">
+
+<div class="card  office ">
+ <div class="card-body">
+                        <h4 class="card-title">office</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Address</h6>
+                        <p class="card-text">5, Alexandra Place, Colombo 7,
+                            Colombo, Sri Lanka</p>
+                        <p class="card-text">office.address@kalaya.lk</p>
+                        <p class="card-text">011 270 2700</p>
+
+                    </div>
+                    <div class="card-body">
+
+
+
+
+                        <h4 class="card-title">Workshop</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Address</h6>
+                        <p class="card-text">No 14 De Fonseka Place
+                            Colombo 05</p>
+                        <p class="card-text">workshop.address@kalaya.lk</p>
+                        <p class="card-text">011 270 2772</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-10 col-md-8 col-lg-6 mx-auto">
+                <form method="post" action="contactus_submitted.php">
+                <div class="form-group">
+
+                        <h1 class="start text-white"">let us know</h1>
+                </div>
+                <div class="form-group my-5">
+                    <p class="text-white">Name</p>
+                    <input type="text" class="form-control " id="name" name="name" placeholder="Name" required autofocus="">
+                </div>
+
+                <div class="form-group my-5">
+                    <p class="text-white">Contact NUmber</p>
+                    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" onchange="phone()" ><p id="mobile2" class="text-danger"></p>
+
+                </div>
+
+                <div class="form-group my-5">
+                    <p class="text-white">Email Address</p>
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Email" onchange="emailcheck()" required><p id="email2" class="text-danger"></p>
+                </div>
+
+
+
+                <div class="form-group my-5">
+                    <p class="text-white">Subject </p>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="form-group my-5">
+                    <p class="text-white">Comments </p>
+                    <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Message" maxlength="200" rows="7" required></textarea>
+
+                </div>
+                <div class="form-group my-5">
+                    <input type="submit" name="submit" id="submit"  class="btn btn-secondary " />
+
+                </div>
+                    </form>
+            </div>
+        </div>
+
+
+
+        <div class="filler"></div>
+
+
+
+    </div>
+
+     </body>
+
+
+</html>

@@ -1,0 +1,230 @@
+h1{
+	color:#ffc680;
+	font-family:serif;
+}
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	font-size:13px;
+	color:white;
+	background-image:url(../Assest/img15.jpg);
+	background-size:99% 99%;
+	background-position:center;
+	background-repeat:no-repeat;
+	
+}
+#lable{
+	text-align:left;
+	font-family:serif;
+	font-size:15px;
+}
+
+.sign-up-form{
+	width:300px;
+	box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+	/* background:#1b2631; */
+	background-color: #670305;
+	padding:20px;
+	margin:5% 0 5% 39.5%;
+	text-align:center;
+	border-radius:20px;
+	
+}
+.input-box{
+	border-radius:20px;
+	padding:10px;
+	margin:10px 0;
+	width:100%;
+	border:1px solid #999;
+	outline: none;
+	background-color:#f2f4f4;
+}
+.sign-btn{
+	background-color: black;
+	color:white;
+	width:100%;
+	padding:10px;
+	border-radius:20px;
+	font-size:15px;
+	margin:10px 0;
+	border:none;
+	outline:none;
+	cursor:pointer;
+}
+hr{
+	margin-top:20px;
+	width:80%;
+}
+
+img{
+	width:70px;
+	margin-top:-50px;
+}
+
+.show{
+	position: relative; 
+	right: -110px;
+	bottom: 30px;
+	transform: translateY(-50%);
+	font-size: 12px;
+	font-weight: 600;
+	user-select: none;
+	cursor: pointer;
+	display: none;
+	color:black;
+
+}
+#home{
+	position: absolute;
+	box-sizing: border-box;
+	top: 15%;
+	left: 10%;
+	padding: 10px;
+
+	border: none;
+	text-decoration: none;
+}
+#explore{
+	position: absolute;
+	box-sizing: border-box;
+	top: 15%;
+	left: 30%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+#contact{
+	position: absolute;
+	box-sizing: border-box;
+	top: 15%;
+	left: 60%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+#login{
+	position: absolute;
+	box-sizing: border-box;
+	top: 15%;
+	left: 75%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+#signup{
+	position: absolute;
+	box-sizing: border-box;
+	top: 15%;
+	left: 85%;
+
+	padding: 10px;
+
+	border: none;
+	text-decoration: none ;
+}
+#navbar{
+
+	height: 7vh;
+
+	padding-top: 10px;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	width: 100vw;
+
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(8px);
+}
+
+#home,#explore,#contact,#login,#signup{
+	background: rgba(255, 255, 255, 0.0);
+	
+	border: none;
+}
+
+#login:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+
+
+#home:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+
+
+#explore:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+
+
+#contact:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+
+#signup:hover{
+	color: whitesmoke;
+	background: rgba(101, 67, 70, 0.3);
+	border-radius: 5px;
+}
+
+#logo img{
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%);
+	border-radius: 15px;
+	opacity: 0.5;
+	height: 50px;
+	width: 50px;
+}
+
+a{
+	font-family: cursive;
+	color: #670305;
+	border-radius: 30px;
+	box-sizing: border-box;
+	padding: 25px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#footer{
+
+	position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+ 
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 15px;
+
+    height: 70px;
+    width: 99.5%;
+    bottom: -8%;
+
+
+    text-align: center;
+}
+

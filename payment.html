@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Online Payment </title>
+<meta charset="utf-8">
+<meta name="viewport" content = "width=device-width,initial-scale=1.0" >
+<link rel="stylesheet" type="text/css" href="./css/delivery.css">
+<script type="text/javascript" src="payment.js"></script>
+</head>
+<body style="background-color:#bab8b8">
+
+<div id="container">
+
+<div id="navbar">
+    <div id="logo"><img src="./Assest/logo.jpg"></div>
+    <button type="button" id="home"><a href="home.html" style="text-decoration: none;">Home</a></button>
+    <button type="button" id="explore"><a href="Explore sheet.html" style="text-decoration: none;">Explore</a></button>
+    <button type="button" id="contact"><a href="home.html#contactfooter" style="text-decoration: none;">Contact Us</a></button>
+    <button type="button" id="login"><a href="login12.html" style="text-decoration: none;">Login</a></button>
+<button type="button" id="signup"><a href="newsignup.html" style="text-decoration: none;">Signup</a></button>
+</div>
+
+<!--<h2 class="cls1-text"> Delivery Details & Payment</h2>
+<hr>-->
+
+<br>
+
+<form id="delivey" name="delivering" method="post" onsubmit="return login();" >
+<div id="delivery_details">
+<p style=" text-align:center; color: rgb(255, 190, 105);" > This will be your online payement billing and delivery address. </p>
+ 
+ <fieldset>
+		<legend>Delivery Details :</legend>
+ <table  height="100%" border="0">
+ <tr>
+ <td><label>First Name  </label></td>
+ <td> <input type = "text" name="fname"  value="" placeholder=" Enter First Name Here " size="50" maxlength="25" required></td>
+ </tr>
+ <tr>
+ <td><label>Last Name  </label></td>
+ <td> <input type = "text" name="fname" value="" placeholder=" Enter Last Name Here " size="50" maxlength="25" required></td>
+ </tr>
+ <tr>
+ <td><label>Email</label></td>
+ <td> <input type="email" name="umail" size="50" required></td>
+ </tr>
+ <tr>
+ <td><label>Delivery Address</label></td>
+ <td><textarea name="address" cols="50" rows="10" required></textarea></td>
+ </tr>
+ <tr>
+ <td><label>City</label></td>
+ <td><input type="text" name="city" size="50"/></td>
+ </tr>
+ <tr>
+ <td><label>NIC number <br/> <h5>( Required for warranty ) </h5> </label></td>
+ <td> <input type="text" id ="nic" name="nic" maxlength="10" size="50" required></td>
+ </tr>
+ <tr>
+ <td><label>Contact No<label></td>
+ <td><input type= "text" name="mobile" value="" placeholder=" Mobile No: 077 2535456" size="50" maxlength="10"/> </td>
+ </tr>
+ <tr>
+ <td colspan="2" style="padding-bottom: 50px;">
+ <input type="checkbox" id="purchasing"name="purchasing" /> <label> I am purchasing this for friend/family. </label> 
+ <br/>
+ <input type="checkbox" id="billaddress" name="billaddress" /> <label> Bill to same Address </label>
+
+ </td>
+ </tr>
+</table>
+</fieldset>
+</div>
+
+<div id="payment">
+<fieldset>
+<legend>Online Payment :</legend>
+<!--INSERT BANK CARD DETAILS   VISA DEBIT-->
+
+<table>
+
+<tr>
+<td>
+<label>Name of the card :</label>
+</td>
+<td>
+<input type="text" name="cname" size="50"/><br/>
+</td>
+</tr>
+
+<tr>
+    <td>
+<label>Card Number:</label>
+</td>
+<td>
+<input type="text"  name="cnumb" value="" placeholder=" xxxx xxxx xxxx xxxx "  size="50" maxlength="16"  /></td>
+</tr>
+
+<tr>
+    <td>
+<label>Expiry :</label> </td>
+<td>
+<select name = "month">
+<option value="Month"  selected >Month</option>
+<option value="01" >01</option>
+<option value="02" >02</option>
+<option value="03" >03</option>
+<option value="04" >04</option>
+<option value="05" >05</option>
+<option value="06" >06</option>
+<option value="07" >07</option>
+<option value="08" >08</option>
+<option value="09" >09</option>
+<option value="10" >10</option>
+<option value="11" >11</option>
+<option value="12" >12</option>
+</select>
+<select name = "year">
+<option value="Year"  selected >Year</option>
+<option value="2015" >15</option>
+<option value="2016" >16</option>
+<option value="2017" >17</option>
+<option value="2018" >18</option>
+<option value="2019" >19</option>
+<option value="2020" >20</option>
+<option value="2021" >21</option>
+<option value="2022" >22</option>
+<option value="2023" >23</option>
+<option value="2024" >24</option>
+<option value="2025" >25</option>
+<option value="2026" >26</option>
+<option value="2027" >27</option>
+<option value="2028" >28</option>
+<option value="2029" >29</option>
+<option value="2030" >30</option>
+</select>
+</td></tr>
+
+<tr><td>
+<label>CVC Code :</label> </td>
+<td>
+<input type ="number" size="5" maxlength="3" min="100" max="999" /></td>
+</tr>
+
+<tr>
+    <td>
+<label>Phone Number :</label></td>
+<td>
+<input type= "text" name="mobile" size="50" maxlength="10"/><br/>
+<input type="radio" name="connumb" value="mobile"> Mobile 
+<input type="radio" name="connumb" value="home"> Home
+ </td>
+</tr>
+<!--<tr>
+    <td>
+<label>Total Price :</label></td>
+<td><p id="price_total"></p></td>
+</tr>
+<tr>-->
+    <td>
+<h5>I agree to <a href="#" > Terms and Conditions </a> </h5>
+
+</td>
+</tr>
+
+<tr>
+    <td colspan="2"><hr></td></tr>
+</table>
+
+ <div style="text-align:center"> 
+ 
+ <input type="submit" value="Proceed This Transaction" onclick="success();" >
+
+ <input type="reset" value="Close" />
+ </div>
+</fieldset>
+</div>
+</form>
+</div>
+<div>
+<div id="footer-services">
+<div class="services"><div class="cls1-text">Islandwide Delivery</div>
+<div class="service-image">
+<img alt="Islandwide Delivery" class="img_respond" src="./Assest/delivery-service.jpg" />
+</div>
+</div>
+<div class="services"><div class="cls1-text">Guaranty</div>
+<div class="service-image">
+<img alt="warrenty" class="img_respond" src="./Assest/guaranty-logo.jpg" />
+</div>
+</div>
+<div class="services"><div class="cls1-text">Online Banking</div>
+<div class="service-image">
+<img alt="Online Banking" class="img_respond" src="./Assest/onlinebanking.png" />
+</div>
+</div>
+</div>
+
+</div>
+<div id="footer" class="centerText"><p>&copypage created by:wesbandumagroup<br>E-mail:office.address@wesbanduma.com<br>Tele no: 0112729729</p>
+</div>
+</body>
+
+</html>
